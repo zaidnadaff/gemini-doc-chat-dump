@@ -1,0 +1,29 @@
+{
+  "name": "pdf-chat-app",
+  "version": "1.0.0",
+  "description": "Chat with multiple PDFs using Node.js and LangChain",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "@langchain/community": "^0.0.20",
+    "@langchain/google-genai": "^0.0.8",
+    "axios": "^1.8.3",
+    "chalk": "^5.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eventsource": "^3.0.5",
+    "express": "^4.18.2",
+    "faiss-node": "^0.5.1",
+    "form-data": "^4.0.2",
+    "langchain": "^0.1.4",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
